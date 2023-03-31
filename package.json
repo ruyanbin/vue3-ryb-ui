@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:ryb": "gulp -f packages/components/script/build/index.ts",
+    "build:ryb": "gulp -f packages/components/script/build/index.ts & pnpm run --filter ./packages/utils build",
+    "ryb:dev": "pnpm run --filter ./example dev",
     "lint:script": "eslint --ext .js,.jsx,.vue,.ts,.tsx --fix --quiet ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

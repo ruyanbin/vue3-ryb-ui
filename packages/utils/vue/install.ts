@@ -1,7 +1,7 @@
 /**
  * NOOP 判断是否为空函数
  */
-import { NOOP } from 'vue';
+import { NOOP } from '@vue/shared';
 import type { App, Directive } from 'vue';
 import type { SFCInstallWithContext, SFCWithInstall } from './typescript';
 
