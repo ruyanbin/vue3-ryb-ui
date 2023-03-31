@@ -1,1 +1,0 @@
-"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const e=require("./src/index.mjs"),n=require("./src/button/index.mjs"),r=require("./src/icon/index.mjs"),s={install:t=>{for(let o in e)t.use(e[o])}};exports.Button=n.Button;exports.Icon=r.Icon;exports.default=s;

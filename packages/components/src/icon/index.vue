@@ -1,21 +1,18 @@
 <template>
-	<i>
-		icon
-		<slot></slot>
-	</i>
+  <i>
+    icon
+    <slot></slot>
+  </i>
 </template>
 
 <script>
-import { defineComponent } from "vue"
-	export default defineComponent({
-		name:'ryb-icon',
-		setup(){
-				
-			return{
-			}
-		}
-	})
+import { defineComponent } from 'vue';
+export default defineComponent({
+  name: 'ryb-icon',
+  setup() {
+    return {};
+  }
+});
 </script>
 
-<style>
-</style>
+<style></style>
